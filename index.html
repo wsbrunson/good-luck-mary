@@ -10,8 +10,10 @@
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+    />
 
     <meta name="theme-color" content="#fafafa" />
     <style type="text/css">
@@ -22,11 +24,6 @@
           Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
           "Segoe UI Symbol";
         background: rgb(99, 214, 211);
-        background: linear-gradient(
-          180deg,
-          rgba(99, 214, 211, 1) 34%,
-          rgba(0, 212, 255, 1) 100%
-        );
       }
       main {
         max-width: 70ch;
@@ -42,6 +39,17 @@
         position: absolute;
         font-family: Georgia;
         opacity: 0.3;
+      }
+      .text-align-right {
+        text-align: right;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .signature {
+        font-family: "Permanent Marker", cursive;
+        font-size: 3rem;
+        line-height: 0;
       }
     </style>
   </head>
@@ -77,13 +85,13 @@
       </p>
 
       <p>
-        You are amazing, you are talented, and you will do amazing. I'll be
-        waiting for you here in America with a gallon of ice cream and all our
-        favorite shows. Sunday it'll just be you, me, a comfy bed, and no stress
-        at all.
+        You are amazing, you are talented, you are a blast to be around, and
+        everyone there will recongize those qualities in you. I'll be waiting
+        for you here in America with a gallon of ice cream and all our favorite
+        shows. Sunday it'll just be you, me, a comfy bed, and no stress at all.
       </p>
-      <p>I love you,</p>
-      <p>Shane</p>
+      <p class="text-align-right bold">I love you,</p>
+      <p class="text-align-right signature">Shane</p>
     </main>
   </body>
 </html>
